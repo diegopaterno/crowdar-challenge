@@ -1,0 +1,25 @@
+# Casos de Prueba
+
+## Caso de Prueba 1: Login Exitoso
+- Descripción: Verificar que un usuario pueda iniciar sesión correctamente con credenciales válidas.
+- Precondiciones: El usuario debe estar registrado y contar con un nombre de usuario y contraseña válidos.
+- Pasos:
+  1. Abrir la aplicación web.
+  2. Ingresar el nombre de usuario y la contraseña válidos.
+  3. Hacer clic en el botón de login.
+- Resultado esperado: El usuario es redirigido a la página principal.
+
+## Caso de Prueba 2: Agregar Producto al Carrito
+- Descripción: Verificar que el usuario pueda agregar un producto al carrito de compras.
+- Precondiciones: El usuario debe haber iniciado sesión correctamente.
+- Pasos:
+  1. Navegar a la página de productos.
+  2. Seleccionar un producto y hacer clic en "Agregar al Carrito".
+- Resultado esperado: El producto se agrega correctamente al carrito.
+
+## Caso de Prueba 3: Validar la Existencia de Departamentos en la API
+- Descripción: Verificar que la API de Mercado Libre retorne una lista de departamentos.
+- Precondiciones: El servicio web debe estar disponible.
+- Pasos:
+  1. Realizar una solicitud GET a la URL: `https://www.mercadolibre.com.ar/menu/departments`.
+- Resultado esperado: La respuesta contiene un listado con al menos un departamento.
