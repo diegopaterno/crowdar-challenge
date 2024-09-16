@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://www.saucedemo.com/",
+  "baseUri": "https://www.mercadolibre.com.ar",
+  "endPoint": "/menu/departments",
+  "test_data": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  }
+}

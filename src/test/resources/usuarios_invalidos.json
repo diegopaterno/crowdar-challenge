@@ -1,0 +1,14 @@
+[
+  {
+    "user": "sta*//7@",
+    "pass": "secret_sauce"
+  },
+  {
+    "user": "standard_user",
+    "pass": "secret"
+  },
+  {
+    "user": "",
+    "pass": "secret_sauce"
+  }
+]
